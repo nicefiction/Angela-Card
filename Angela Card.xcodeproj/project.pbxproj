@@ -11,6 +11,8 @@
 		09B2E42326163E3100D2ADD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B2E42226163E3100D2ADD5 /* ContentView.swift */; };
 		09B2E42526163E3600D2ADD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B2E42426163E3600D2ADD5 /* Assets.xcassets */; };
 		09B2E42826163E3600D2ADD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B2E42726163E3600D2ADD5 /* Preview Assets.xcassets */; };
+		09B2E432261642E400D2ADD5 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B2E431261642E400D2ADD5 /* Pacifico-Regular.ttf */; };
+		09B2E4352616578300D2ADD5 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B2E4342616578300D2ADD5 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		09B2E42426163E3600D2ADD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09B2E42726163E3600D2ADD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09B2E42926163E3600D2ADD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B2E431261642E400D2ADD5 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		09B2E4342616578300D2ADD5 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 			children = (
 				09B2E42026163E3100D2ADD5 /* Angela_CardApp.swift */,
 				09B2E42226163E3100D2ADD5 /* ContentView.swift */,
+				09B2E4342616578300D2ADD5 /* InfoView.swift */,
 				09B2E42426163E3600D2ADD5 /* Assets.xcassets */,
+				09B2E430261642B900D2ADD5 /* Fonts */,
 				09B2E42926163E3600D2ADD5 /* Info.plist */,
 				09B2E42626163E3600D2ADD5 /* Preview Content */,
 			);
@@ -67,6 +73,14 @@
 				09B2E42726163E3600D2ADD5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09B2E430261642B900D2ADD5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				09B2E431261642E400D2ADD5 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B2E432261642E400D2ADD5 /* Pacifico-Regular.ttf in Resources */,
 				09B2E42826163E3600D2ADD5 /* Preview Assets.xcassets in Resources */,
 				09B2E42526163E3600D2ADD5 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B2E42326163E3100D2ADD5 /* ContentView.swift in Sources */,
+				09B2E4352616578300D2ADD5 /* InfoView.swift in Sources */,
 				09B2E42126163E3100D2ADD5 /* Angela_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
